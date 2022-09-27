@@ -1,0 +1,28 @@
+/* this is example of element selector */
+body {
+    font-size: 22px;
+    background-color: papayawhip;
+}
+
+h1 {
+    color: slateblue;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    color: purple;
+}
+
+/* this is example of class selector,it can used to multiple elements at once and multiple times */
+.gray {
+    color: gray;
+}
+
+/* this is example of id selector,always try to use it minimum */
+#second {
+    color: red;
+}
