@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 3rem;
+    background-color: skyblue;
+    border: 2px dashed red;
+    width: 50%;
+    padding: 0.5em;
+}
+
+p {
+    background-color: yellow;
+    font-size: 2rem;
+    width: 80vw;
+}
