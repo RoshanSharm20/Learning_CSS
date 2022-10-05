@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.block {
+    text-align: center;
+    padding-top: 3rem;
+    width: 20vw;
+    height: 20vw;
+    background-color: black;
+    color: white;
+    float: left;
+    margin-right: 2rem;
+}
+
+.right {
+    width: 20vw;
+    height: 20vw;
+    background-color: blue;
+    float: right;
+    padding-top: 3rem;
+    margin-left: 2rem;
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: gold;
+    display: flow-root;
+}
