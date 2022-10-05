@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@300&display=swap');
+
+/* importing different styles from google-fonts */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 15%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    line-height: 2rem;
+    word-spacing: 1rem;
+    font-style: italic;
+}
