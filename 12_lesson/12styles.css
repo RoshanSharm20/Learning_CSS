@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.5rem;
+    min-height: 200vh;
+}
+
+.outerBox {
+    border: 3px dashed black;
+    margin: 40px auto;
+    width: 75vw;
+    height: 85vh;
+    position: relative;
+}
+
+.innerBox {
+    border: 2px solid blue;
+    margin: 200px auto;
+    width: 40vw;
+    height: 50vh;
+    /* position: relative; */
+}
+
+.box {
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    color: gold;
+    padding: 1rem;
+}
+
+.absolute {
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.relative {
+    background-color: red;
+    position: relative;
+    top: 10%;
+    left: 15%;
+}
+
+.fixed {
+    background-color: green;
+    position: fixed;
+    top: 10%;
+    left: 0;
+    z-index: 1;
+}
+
+.sticky {
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    height: 100vh;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+header {
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    font-size: 3rem;
+    color: white;
+    background-color: black;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.social {
+    background-color: aqua;
+    font-size: inherit;
+    top: 30%;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+}
