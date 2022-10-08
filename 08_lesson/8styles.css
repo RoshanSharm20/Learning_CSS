@@ -5,17 +5,39 @@
 }
 
 body {
-    margin: 0.5rem;
-    padding: 0.5rem;
+    font-size: 2rem;
+    /* min-height: 100vh; */
 }
 
-article {
-    background-color: yellow;
-    margin: 0.5rem;
+/* main {
+    width: 50%;
+} */
+
+p {
+    margin: 0;
     /* padding: 0.5rem; */
+    background-color: red;
 }
 
-article p {
-    margin: 0.5rem;
-    padding: 0.5rem;
+.span {
+    display: inline-block;
+    background-color: blue;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+    list-style-position: inside;
+    /* margin: 0.5rem; */
+    background-color: black;
+    text-align: right;
+
+}
+
+li {
+    display: inline-block;
+    /* padding-inline: 5rem; */
+    /* color: white; */
+    margin-inline: 0.5rem;
 }
