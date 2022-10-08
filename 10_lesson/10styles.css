@@ -1,37 +1,32 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    margin: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .block {
-    text-align: center;
-    padding-top: 3rem;
-    width: 20vw;
-    height: 20vw;
+    /* display: flex; */
+    width: 30vw;
+    height: 30vw;
     background-color: black;
     color: white;
+    padding: 0.5rem;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.left {
     float: left;
-    margin-right: 2rem;
+    margin-right: 0.5rem;
 }
 
 .right {
-    width: 20vw;
-    height: 20vw;
-    background-color: blue;
     float: right;
-    padding-top: 3rem;
-    margin-left: 2rem;
-    color: white;
-    text-align: center;
+    margin-left: 0.5rem;
 }
 
 section {
-    background-color: gold;
+    background-color: steelblue;
+    padding: 1rem;
     display: flow-root;
+    border: 5px solid green;
+    border-radius: 3rem;
 }
