@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1.5rem;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border: 2px double black;
+    display: grid;
+    place-content: center;
+}
+
+div:first-child {
+    background-color: steelblue;
+    /* transform: translateX(50%); */
+}
+
+div:nth-child(2) {
+    background-color: yellow;
+    /* transform: translateY(-2rem); */
+}
+
+div:last-child {
+    background-color: red;
+    /* transform: translate(50%, 3rem); */
+}
+
+div:hover {
+    background-color: green;
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.5s;
+}
+
+.animate {
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+}
+
+@keyframes slide {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    33% {
+        transform: translateX(300px) rotate(180deg);
+    }
+
+    66% {
+        transform: translateX(-300px) rotate(-180deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0);
+        background-color: rebeccapurple;
+    }
+
+}

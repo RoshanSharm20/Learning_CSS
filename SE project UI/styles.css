@@ -1,0 +1,119 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+#homepage_title {
+    color: rgb(0, 0, 0);
+    margin: 0.5rem;
+    padding: 0.2rem;
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 2px 2px 5px;
+}
+
+.delivery_back {
+    background-color: steelblue;
+    background-image: url('img/delivery_background.jpg');
+    background-size: cover;
+    background-position: center center;
+    min-height: 1000px;
+}
+
+.list_elements :first-child {
+    padding-top: 3rem;
+}
+
+.tags {
+    padding-bottom: 3rem;
+    font-size: 3rem;
+    text-shadow: 3px 2px 5px;
+    list-style-type: none;
+}
+
+.tags a {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+a:visited {
+    color: brown;
+}
+
+a:hover,
+a:focus {
+    color: blue;
+}
+
+a:active {
+    color: purple;
+}
+
+.next_section {
+    background-color: navy;
+    background-image: url('img/delivery_background2.jpg');
+    background-size: cover;
+    background-position: bottom right;
+    min-height: 700px;
+}
+
+.next_section h2 {
+    font-size: 4rem;
+    text-align: center;
+    color: peru;
+}
+
+.next_section p {
+    padding-top: 3rem;
+    font-size: 3rem;
+    padding-left: 2rem;
+    max-width: 50%;
+    color: green;
+}
+
+.daily_trivia {
+    font-size: 2rem;
+    /* background-color: yellow; */
+    background-image: radial-gradient(white, yellow, orange, red);
+}
+
+.part_3 {
+    display: flex;
+    background-image: linear-gradient(to right, white, lightblue, steelblue);
+    justify-content: space-evenly;
+}
+
+.part_3_ele h2 {
+    font-size: 4rem;
+    text-align: center;
+    color: orange;
+    text-shadow: 1px 2px 3px;
+}
+
+.part_3_ele p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: yellow;
+    text-shadow: 1px 1px 1px;
+}
+
+.part_3_ele ul li {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    /* text-shadow: 0px 2px 2px; */
+}
+
+#contus a {
+    font-size: 3rem;
+}
+
+.part_3A {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: radial-gradient(white, #22c1c3);
+}
