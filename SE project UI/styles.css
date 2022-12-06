@@ -117,3 +117,7 @@ a:active {
     justify-content: space-evenly;
     background-image: radial-gradient(white, #22c1c3);
 }
+
+#nav-item .ttags a {
+    font-size: 6rem;
+}
